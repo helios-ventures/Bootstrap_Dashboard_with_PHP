@@ -180,11 +180,11 @@ include('pserver.php');
 
   <div class="form-group">
     <label>Product Price</label>
-    <input type="text" class="form-control"  name="pirce" required>
+    <input type="text" class="form-control"  name="price" required>
   </div>
 
  <div class="form-group">
-    <label>Product Catgory</label>
+    <label>Product Category</label>
     <input type="text" class="form-control" name="pcat" required>
   </div>
 
@@ -222,7 +222,7 @@ include('pserver.php');
               <span aria-hidden="true">×</span>
             </button>
           </div>
-          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-body">Are you sure you want to end your current session ?</div>
           <div class="modal-footer">
             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
             <a class="btn btn-primary" href="login.php">Logout</a>
